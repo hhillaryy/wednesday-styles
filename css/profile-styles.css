@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -125,7 +124,6 @@ footer {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    /*margin-bottom: 100px;*/
   }
 
   .info {
@@ -174,11 +172,12 @@ footer {
   }
 
   .info {
-    display:flex;
+    /*display:flex;*/
     flex-direction: column;
     /*border: 2px solid brown;*/
     flex: 1;
     padding: 20px;
+    flex-wrap: wrap;
   }
 
     .photo {

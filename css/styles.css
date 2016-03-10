@@ -69,6 +69,10 @@
   /*border: 2px solid green;*/
 }
 
+#logo {
+  padding: 20px;
+}
+
 .headerInfo {
   display: flex;
   align-items: center;
@@ -303,8 +307,9 @@ font-size: 15px;
     margin: 0 auto;
     flex: 1;
   }
+
   .icon img {
-   padding-top: 20px;
+   /*padding-top: 20px;*/
   }
 
 .cover {
